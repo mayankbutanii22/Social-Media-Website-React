@@ -1,0 +1,269 @@
+.container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9fbfd;
+  min-height: 80vh;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.addBtn,
+.clearAllBtn {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.addBtn {
+  background-color: #5e60ce;
+  color: white;
+}
+
+.clearAllBtn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.addBtn:hover {
+  background-color: #4a4ddc;
+}
+
+.clearAllBtn:hover {
+  background-color: #c0392b;
+}
+
+.empty {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.item.read {
+  background-color: #eef2f7;
+  opacity: 0.85;
+}
+
+.textSection {
+  flex: 1;
+}
+
+.text {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+
+.buttons button:hover {
+  text-decoration: none;
+
+}
+.unreadBtn {
+  color: #484bd9;
+
+}
+.readBtn {
+  color: rgb(29, 218, 29);
+
+}
+
+.deleteBtn {
+  color: red;
+}
+
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .addBtn,
+  .clearAllBtn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .time {
+    font-size: 0.75rem;
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .buttons button {
+    font-size: 1.3rem;
+  }
+  
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .addBtn,
+  .clearAllBtn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .time {
+    font-size: 0.75rem;
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .buttons button {
+    font-size: 1.3rem;
+  }
+}
+
+
+@media  screen and (max-width: 319px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .addBtn,
+  .clearAllBtn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .time {
+    font-size: 0.75rem;
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .buttons button {
+    font-size: 1.3rem;
+  }
+  
+
+}

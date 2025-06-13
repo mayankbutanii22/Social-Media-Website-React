@@ -1,0 +1,53 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.image,
+.postImage,
+.video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.likeButton {
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-top: 8px;
+  cursor: pointer;
+  background-color: #ddd;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.likeButton.liked {
+  background-color: red;
+  color: white;
+}
+
+.commentsSection {
+  margin-top: 10px;
+}
+
+.commentList {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.commentInput {
+  width: 80%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.addCommentButton {
+  padding: 5px 10px;
+}
