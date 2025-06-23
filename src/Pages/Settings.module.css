@@ -1,0 +1,85 @@
+.settingsContainer {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  background: var(--bg);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.settingsHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: var(--primary);
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.inputField {
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  background-color: var(--input-bg);
+  color: var(--text);
+}
+
+.errorText {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.toggleItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.toggleLabel {
+  font-weight: 500;
+}
+
+.toggleInput {
+  transform: scale(1.2);
+}
+
+.saveButton {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: rgb(5, 157, 5);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saveButton:disabled {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+

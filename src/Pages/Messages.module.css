@@ -1,0 +1,245 @@
+.container {
+  padding: 2rem;
+  background: #f7f9fc;
+  min-height: 80vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #2d2d2d;
+}
+
+.inputSection {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.sendButton {
+  padding: 0.8rem 1.5rem;
+  background-color: #5e60ce;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sendButton:hover {
+  background-color: #4a4ddc;
+}
+
+.messageList {
+  list-style: none;
+  padding: 0;
+}
+
+.messageItem {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sender {
+  font-weight: 600;
+  color: #444;
+  margin-right: 0.5rem;
+}
+
+.text {
+  color: #333;
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.copyBtn,
+.deleteBtn {
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #5e60ce;
+  transition: transform 0.2s ease;
+}
+
+.copyBtn:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.deleteBtn:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .inputSection {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .input {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  .sendButton {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .messageItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .actions {
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .copyBtn,
+  .deleteBtn {
+    font-size: 1rem;
+  }
+  
+  
+}
+
+
+
+@media (max-width: 425px) and (min-width: 320px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .inputSection {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .input {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  .sendButton {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .messageItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .actions {
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .copyBtn,
+  .deleteBtn {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .inputSection {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .input {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  .sendButton {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .messageItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .actions {
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .copyBtn,
+  .deleteBtn {
+    font-size: 1rem;
+  }
+
+  
+}

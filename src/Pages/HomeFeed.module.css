@@ -1,0 +1,191 @@
+.home-feed {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #222831;
+}
+
+.post-creator {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.post-creator textarea {
+  resize: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: 0.3s ease;
+}
+
+.post-creator textarea:focus {
+  border-color: #00adb5;
+  outline: none;
+  background-color: #fff;
+}
+
+.post-creator input{
+  resize: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: 0.3s ease;
+}
+
+.post-creator input:focus {
+  border-color: #00adb5;
+  outline: none;
+  background-color: #fff;
+}
+
+.post-creator button {
+  align-self: flex-end;
+  background-color: #00adb5;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-creator button:hover {
+  background-color: #007f86;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.update-button{
+  background-color: rgb(146, 6, 111);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: rgb(223, 30, 175);
+}
+
+.post-item {
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  padding: 1rem;
+  position: relative;
+}
+
+.post-item strong {
+  color: #00adb5;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.post-item p {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.post-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post-actions span {
+  font-weight: bold;
+  color: #393e46;
+}
+
+
+
+textarea {
+  width: 100%;
+  min-height: 80px;
+}
+
+.like-button {
+  background-color: #00adb5;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+  background-color: #14b2ba;
+}
+
+.disLike-button {
+  background-color: #00adb5;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.disLike-button:hover {
+  background-color: #14b2ba;
+}
+
+.edit-button {
+  background-color: rgb(11, 165, 11);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: rgb(11, 198, 11);
+}
+
+.delete-button {
+  background-color: rgb(165, 11, 11);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: rgb(198, 11, 11);
+}
+
+
